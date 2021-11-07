@@ -1,0 +1,135 @@
+/* NAVIGATION BAR */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #bae8e8 !important;
+}
+
+.logo {
+    height: 10vh;
+}
+
+.navbar-brand {
+    font-family: "Satisfy", cursive;
+    color: #272343 !important;
+}
+
+.navbar-brand,
+.logo {
+    padding: 0px 10px;
+}
+
+li {
+    padding-right: 10px;
+}
+
+li a {
+    font-family: "Montserrat", sans-serif;
+    color: #272343 !important;
+}
+
+li a:hover {
+    color: #ffd803 !important;
+}
+
+
+/* HOME PAGE */
+
+.home-page {
+    padding-top: 60px;
+    padding-bottom: 15px;
+    background-color: #bae8e8;
+}
+
+.home-page h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    color: #272343;
+}
+
+.home-page img {
+    height: 65vh;
+}
+
+@media all and (max-width: 600px) {
+    .home-page img {
+        height: 45vh;
+        text-align: center;
+    }
+    .home-page h1 {
+        text-align: center;
+    }
+    .logo {
+        height: 6vh;
+    }
+}
+
+
+/* SURVEY FORM */
+
+label,
+input::placeholder,
+select,
+textarea {
+    font-family: "Montserrat", sans-serif;
+    color: #2d334a;
+}
+
+.survey {
+    background-color: #bae8e8;
+}
+
+.survey h1 {
+    font-family: "Satisfy", cursive;
+    text-align: center;
+    color: #272343;
+}
+
+.sirway {
+    padding: 30px 0px;
+}
+
+.survey img {
+    height: 75vh;
+}
+
+.survey .btn {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 0px !important;
+    text-align: center;
+    background-color: #ffd803;
+    color: #272343;
+}
+
+@media all and (max-width: 600px) {
+    .row {
+        justify-content: center;
+    }
+    .survey img {
+        height: 45vh;
+        text-align: center;
+    }
+    .submit {
+        text-align: center;
+    }
+}
+
+
+/* FOOTER */
+
+.footer {
+    padding: 15px 0px;
+    background-color: #bae8e8;
+    text-align: center;
+    line-height: 3rem;
+    font-family: "Montserrat", sans-serif;
+    color: #272343;
+}
+
+.footer i {
+    padding: 0 8px;
+}
